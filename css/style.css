@@ -152,8 +152,7 @@ ul, ol {
 	line-height: 1.5; /* 24px */
 	margin: 0 0 1.5em 0;
 }
-body, input, textarea {
-}
+
 
 a {
   color: #454545;
@@ -243,14 +242,6 @@ h2.pagetitle {
 	font-weight: normal;
 }
 
-/* =========================================================
-04. Navigation
-============================================================ */
-
-.navbar-fixed-top .container {
-/* Uncomment to make nav expand full width */
- /*	width: auto; */
-}
 .navbar .brand {
 	margin-left:0;
 	padding: 0;
@@ -472,7 +463,7 @@ section.spacer.bg2 {
 }
 
 section.spacer.bg3 {
-	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/bg/bg-3.jpeg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
 	margin:0;	
@@ -867,10 +858,6 @@ section#about {
 	content: "\f099";
 	margin-right:20px;
 }
-
-
-
-/* === Contact section === */
 
 
 /* Contact Form */
@@ -1691,4 +1678,3 @@ i.icon-white {
 	#contact-form input[type=submit] {
 		width: 100%;
 	}
-}
